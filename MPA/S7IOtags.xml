@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Tagtable name='IOtags'>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch 1 NO' addr='%I0.0'>LS1_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch 2 NO' addr='%I0.1'>LS2_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch 3 NO' addr='%I0.2'>LS3_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch 4 NO' addr='%I0.3'>LS4_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch 5 NO' addr='%I0.4'>LS5_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 going high feedback NO' addr='%I0.5'>P01_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 going high feedback NO' addr='%I0.6'>P02_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 going high feedback NO' addr='%I0.7'>P03_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 lock outside mode NO' addr='%I1.0'>P01_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 lock outside mode NO' addr='%I1.1'>P02_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 lock outside mode NO' addr='%I1.2'>P03_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 high command outside mode NO' addr='%I1.3'>P01_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 low command outside mode NO' addr='%I1.4'>P01_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 high command outside mode NO' addr='%I1.5'>P02_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 low command outside mode NO' addr='%I1.6'>P02_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 high command outside mode NO' addr='%I1.7'>P03_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 low command outside mode NO' addr='%I2.0'>P03_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 A-circuit NC' addr='%I2.1'>Estop1_A</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 B-circuit NC' addr='%I2.2'>Estop1_B</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 command On/Off NO' addr='%Q0.0'>P01_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 command On/Off NO' addr='%Q0.1'>P02_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 command On/Off NO' addr='%Q0.2'>P03_Y</Tag>
+</Tagtable>
