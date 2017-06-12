@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Tagtable name='IOtags'>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level switch low 1 NO' addr='%I0.0'>LSL1_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level indicator 2 (binary) NO' addr='%I0.1'>LI2_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level indicator 3 (binary) NO' addr='%I0.2'>LI3_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level indicator 4 (binary) NO' addr='%I0.3'>LI4_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Level alarm high 5 NO' addr='%I0.4'>LAH5_X</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 going high feedback NO' addr='%I0.5'>P01_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 going high feedback NO' addr='%I0.6'>P02_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 going high feedback NO' addr='%I0.7'>P03_XGH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 lock outside mode NO' addr='%I1.0'>P01_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 lock outside mode NO' addr='%I1.1'>P02_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 lock outside mode NO' addr='%I1.2'>P03_LO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 high command outside mode NO' addr='%I1.3'>P01_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 low command outside mode NO' addr='%I1.4'>P01_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 high command outside mode NO' addr='%I1.5'>P02_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 low command outside mode NO' addr='%I1.6'>P02_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 high command outside mode NO' addr='%I1.7'>P03_XOH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 low command outside mode NO' addr='%I2.0'>P03_XOL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 A-circuit NC' addr='%I2.1'>Estop1_A</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 B-circuit NC' addr='%I2.2'>Estop1_B</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 command On/Off NO' addr='%Q0.0'>P01_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 command On/Off NO' addr='%Q0.1'>P02_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 command On/Off NO' addr='%Q0.2'>P03_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 A-circuit pulsed supply NO' addr='%Q0.3'>Estop1_A1</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 B-circuit pulsed supply NO' addr='%Q0.4'>Estop1_B1</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 status NO' addr='%Q0.5'>Estop1_Y</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 outside mode status NO' addr='%Q0.6'>P01_BO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 outside mode status NO' addr='%Q0.7'>P02_BO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 outside mode status NO' addr='%Q1.0'>P03_BO</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 binary confirmed high NO' addr='%Q1.1'>P01_BCH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 binary confirmed high NO' addr='%Q1.2'>P02_BCH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 binary confirmed high NO' addr='%Q1.3'>P03_BCH</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 1 binary confirmed low NO' addr='%Q1.4'>P01_BCL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 2 binary confirmed low NO' addr='%Q1.5'>P02_BCL</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Pump 3 binary confirmed low NO' addr='%Q1.6'>P03_BCL</Tag>
+</Tagtable>

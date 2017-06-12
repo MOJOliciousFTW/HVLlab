@@ -1,0 +1,23 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Tagtable name='IOtags'>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Metal detectected conveyor 2 NO' addr='%I1.0'>S8</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Non-metal detected conveyor 2 NO' addr='%I1.1'>S9</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Metal detectected conveyor 1 NO' addr='%I1.2'>S10</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Non-metal detected conveyor 1 NO' addr='%I1.3'>S11</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Cylinder retracted NO' addr='%I2.0'>S12</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Cylinder midle NO' addr='%I2.1'>S13</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Cylinder extended NO' addr='%I2.2'>S14</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 A-circuit NC' addr='%I2.3'>Estop1_A</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 B-circuit NC' addr='%I3.0'>Estop1_B</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Motor 1 command On/Off NO' addr='%Q1.0'>Band1</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Motor 2 command On/Off NO' addr='%Q1.1'>Band2</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Next puck NO' addr='%Q1.2'>Y4</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Extend cylinder NO' addr='%Q1.3'>Y5</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Retract cylinder NO' addr='%Q2.0'>Y6</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Lower arm NO' addr='%Q2.1'>Y7</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Suck puck NO' addr='%Q2.2'>Y8</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Extend towards metal tray NO' addr='%Q2.3'>Y9</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Extend towards non-metal tray NO' addr='%Q3.0'>Y10</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 A-circuit pulsed supply NO' addr='%Q3.1'>Estop1_A1</Tag>
+<Tag type='BOOL' hmiVisible='True' hmiAccessible='True' retain='False' remark='Emergency stop 1 B-circuit pulsed supply NO' addr='%Q3.2'>Estop1_B1</Tag>
+</Tagtable>
